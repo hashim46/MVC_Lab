@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Edit(props){
+function New(){
     return(
         <div>
-            <h1> In Edit in fruits </h1>
+            <h1> In New in vegetables </h1>
             <form>
                 <label>
                     <input type="text" name="name"/>
@@ -14,4 +14,4 @@ function Edit(props){
     )
 }
 
-export default Edit
+export default New
